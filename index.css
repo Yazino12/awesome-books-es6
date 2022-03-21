@@ -1,0 +1,180 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  min-width: 568px;
+}
+
+body,
+p,
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+h1,
+h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #3369ff;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+button {
+  padding: 0.7em 0.9em;
+  border-style: none;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 400;
+  color: #fff;
+  background-color: #3369ff;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 10em;
+  background-color: #3369ff;
+}
+
+nav span {
+  font-size: 1.5rem;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+nav ul {
+  display: flex;
+  gap: 3em;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+  min-height: 750px;
+}
+
+.main-section .date {
+  background-color: rgba(0, 58, 216, 0.226);
+  align-self: flex-end;
+  color: rgb(5, 31, 117);
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 1em 50%;
+}
+
+.list,
+.add,
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  background-color: rgba(0, 58, 216, 0.226);
+  width: 90%;
+  margin: auto;
+  padding: 2em;
+  border-radius: 1em 50%;
+}
+
+.is-inactive {
+  display: none;
+}
+
+.is-active {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.5em;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 1em;
+  font-weight: 600;
+  border: 1px solid #fff;
+  background-color: rgba(0, 58, 216, 0.226);
+}
+
+.book .left {
+  display: flex;
+  gap: 0.6em;
+}
+
+.book button {
+  width: 70px;
+}
+
+.evens {
+  background-color: gainsboro;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 550px;
+}
+
+.book-form input {
+  padding: 0.5em;
+}
+
+.book-form div {
+  display: flex;
+  justify-content: end;
+}
+
+.book-form button {
+  display: inline-block;
+  width: 50px;
+}
+
+.contact .contact-lower {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.contact .contact-lower ul {
+  list-style-type: disc;
+  width: 350px;
+}
+
+footer {
+  display: flex;
+  padding: 1em 10em;
+  background-color: #3369ff;
+}
+
+footer p {
+  font-size: small;
+}
