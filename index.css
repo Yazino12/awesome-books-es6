@@ -64,22 +64,24 @@ nav ul li a {
   color: #fff;
 }
 
+.date {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  background-color: rgba(0, 58, 216, 0.226);
+  color: rgb(5, 31, 117);
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 1em 50%;
+}
+
 .main-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1em;
   gap: 1em;
-  min-height: 750px;
-}
-
-.main-section .date {
-  background-color: rgba(0, 58, 216, 0.226);
-  align-self: flex-end;
-  color: rgb(5, 31, 117);
-  font-size: 1rem;
-  padding: 1em;
-  border-radius: 1em 50%;
+  min-height: 780px;
 }
 
 .list,
@@ -96,12 +98,8 @@ nav ul li a {
   border-radius: 1em 50%;
 }
 
-.is-inactive {
-  display: none;
-}
-
-.is-active {
-  display: flex;
+.add-books {
+  text-align: center;
 }
 
 .container {
