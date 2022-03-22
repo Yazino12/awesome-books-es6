@@ -61,7 +61,7 @@ class BookCollection {
 }
 
 const arrayCollection = new BookCollection(
-  JSON.parse(localStorage.getItem('bookData')),
+  JSON.parse(localStorage.getItem('bookData')) || []
 );
 arrayCollection.render();
 arrayCollection.addBook();
