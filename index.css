@@ -60,6 +60,15 @@ nav ul {
   gap: 3em;
 }
 
+nav ul li {
+  padding: 1em;
+}
+
+nav ul li:hover {
+  background-color: rgba(0, 58, 216, 0.226);
+  border-radius: 1em 50%;
+}
+
 nav ul li a {
   color: #fff;
 }
