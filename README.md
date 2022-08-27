@@ -4,6 +4,12 @@
 
 > Awesome books allows users to add/remove books from a list, you can also see a list of your favorite books and authors.
 
+<h2 align="center">
+  Demo 📝
+</h2>
+
+<img src="https://user-images.githubusercontent.com/43172164/187044459-386c05fa-918d-465e-be60-5e3b478aa63b.png" width="2470" height="400">
+
 ## Built With
 
 - HTML
