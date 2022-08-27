@@ -1,6 +1,15 @@
-# Awesome Books Collection V2
+![](https://img.shields.io/badge/-Yazino12-yellow)
 
-> A basic website that allows users to add/remove books from a list.
+# Awesome Books
+
+> Awesome books allows users to add/remove books from a list, you can also see a list of your favorite books and authors.
+
+## Built With
+
+- HTML
+- Javascript
+- CSS
+- ES6
 
 ## Getting Started
 
@@ -8,18 +17,16 @@ To get a local copy up and running follow these setup steps.
 
 **Setup**
 
-- Simply fork this project and it should be ready for you to edit as you see fit.
-- In case you run into any errors please raise an [issue](https://github.com/Yazino12/awesome-books/issues).
+- Open terminal and clone the project: `git clone https://github.com/Yazino12/awesome-books-es6.git`
+- cd into the directory `awesome-books-es6`
 
-## Built With
+## Author
 
-- HTML, CSS, Javascript
-
-## Authors
-
-👤 **Yasin**
+👤 **Yasin Warsame**
 
 - GitHub: [@Yazino12](https://github.com/Yazino12)
+- Twitter: [@yasino24](https://twitter.com/yasino24)
+- LinkedIn: [yasin-warsame](https://linkedin.com/in/yasin-warsame-a4176217a)
 
 ## Live
 
@@ -39,4 +46,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project has no licenses.
+This project is [MIT](./MIT.md) licensed.
